@@ -1,0 +1,25 @@
+1.Configuring Git:
+
+git config --global user.name "pradyuma"
+git congig --global user.email "pradyumna@gmail.com"
+
+2.Local Git Commands
+
+ git init -> We use the git init command to initialize a Git repository in the root of a folder.
+ git status -> After creating a new file, we can use the git status command and see the status of the files in the master branch.
+ git add -> git add .
+ git commit - git commit -m 'My first commit'
+ git remote - git remote add origin "url of git remote repository"
+ git push origin EnterBranchName
+
+3. git pull
+ git remote set-url origin "url of remote"
+ git pull origin master
+
+4. Branching in Git
+ git checkout -b <new branch name>
+ git checkout master
+ git merge branch2 -> for merge the branch
+
+5. git diff- show the latest changes in local file
+   git log-  check to log 
